@@ -1,0 +1,14 @@
+{
+    "name": "training-demo",
+    "private": true,
+    "version": "1.0.0",
+    "main": "index.js",
+    "author": "zhoujing <jing.zhou@terapines.com>",
+    "license": "MIT",
+    "workspaces": [
+        "packages/*"
+    ],
+    "devDependencies": {
+        "lerna": "^4.0.0"
+    }
+}

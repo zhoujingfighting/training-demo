@@ -1,0 +1,15 @@
+{
+    "name": "training-demo",
+    "private": true,
+    "version": "1.0.0",
+    "main": "index.js",
+    "author": "zhoujing <jing.zhou@terapines.com>",
+    "license": "MIT",
+    "workspaces": [
+        "./nodejs/*",
+        "theia-demo"
+    ],
+    "devDependencies": {
+        "lerna": "^2.11.0"
+    }
+}
