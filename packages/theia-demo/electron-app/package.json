@@ -2,6 +2,7 @@
   "private": true,
   "name": "electron-app",
   "version": "0.0.0",
+  "main": "src-gen/frontend/electron-main.js",
   "dependencies": {
     "@theia/core": "latest",
     "@theia/editor": "latest",
@@ -23,7 +24,7 @@
   },
   "scripts": {
     "prepare": "theia build --mode development",
-    "start": "theia start",
+    "start": "electron src-gen/frontend/electron-main.js",
     "watch": "theia build --watch --mode development"
   },
   "theia": {

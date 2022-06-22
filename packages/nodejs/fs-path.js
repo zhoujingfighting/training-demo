@@ -1,6 +1,5 @@
 const fs  = require('fs');
 const path = require('path');
-
 /**
  * TODO: 简答拷贝一下文件
  */

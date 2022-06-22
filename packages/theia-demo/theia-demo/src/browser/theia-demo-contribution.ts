@@ -20,7 +20,7 @@ export class TheiaDemoCommandContribution implements CommandContribution {
         });
     }
     /**
-     * TODO: 与下面的菜单联合，点击菜单后，弹出hello world
+     * TODO: 与下面的菜单联合，点击菜单后，弹出hello world消息
      */
 
 }
