@@ -9,6 +9,14 @@
         "packages/*"
     ],
     "devDependencies": {
-        "lerna": "^4.0.0"
+        "@types/express":"latest"
+    },
+    "dependencies": {
+        "@types/node":"latest",
+        "lodash":"latest",
+        "express":"latest",
+        "bcrypt":"latest",
+        "mongoose":"latest",
+        "jsonwebtoken":"latest"
     }
 }

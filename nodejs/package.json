@@ -8,7 +8,14 @@
   },
   "dependencies": {
     "@types/node":"latest",
-    "lodash":"latest"
+    "lodash":"latest",
+    "express":"latest",
+    "bcrypt":"latest",
+    "mongoose":"latest",
+    "jsonwebtoken":"latest"
+  },
+  "devDependencies": {
+    "@types/express":"latest"
   },
   "keywords": [],
   "author": "",

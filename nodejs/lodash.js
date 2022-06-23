@@ -19,3 +19,4 @@ Array.prototype._reduce = function(...args) {
 }
 
 console.log([2,3]._reduce((a,b) => a+ b ,2))
+console.log([2,3]._reduce((a,b) => a+ b))
