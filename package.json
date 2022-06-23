@@ -23,7 +23,8 @@
         "mongoose":"latest",
         "jsonwebtoken":"latest",
         "inversify":"latest",
-        "reflect-metadata":"latest"
+        "reflect-metadata":"latest",
+        "typescript":"latest"
     },
     "type": "module"
 }
