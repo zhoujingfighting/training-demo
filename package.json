@@ -8,8 +8,12 @@
     "workspaces": [
         "packages/*"
     ],
+    "scripts": {
+        "test:inversify": "ts-node-dev --respawn --transpile-only inversify/inversify-demo.ts"
+    },
     "devDependencies": {
-        "@types/express":"latest"
+        "@types/express":"latest",
+        "ts-node-dev": "^1.1.6"
     },
     "dependencies": {
         "@types/node":"latest",
@@ -17,6 +21,9 @@
         "express":"latest",
         "bcrypt":"latest",
         "mongoose":"latest",
-        "jsonwebtoken":"latest"
-    }
+        "jsonwebtoken":"latest",
+        "inversify":"latest",
+        "reflect-metadata":"latest"
+    },
+    "type": "module"
 }
